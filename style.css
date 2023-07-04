@@ -1,0 +1,38 @@
+body {
+    font-family: 'Teko', sans-serif;
+    margin: 0%;
+}
+
+.orange-color {
+    color: brown
+}
+
+h1 {
+    font-size: 30px;
+}
+
+section {
+    display: flex
+}
+
+.half-weight {
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-weight img {
+    width: 150px;
+    padding-left: 3%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: -moz-element(green brown);
+    padding-right: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+}
+
+.top-banner {
+    background-image: url(images/header_bg.png);
+}
