@@ -4,7 +4,7 @@ body {
 }
 
 .orange-color {
-    color: brown
+    color: brown;
 }
 
 h1 {
@@ -12,7 +12,8 @@ h1 {
 }
 
 section {
-    display: flex
+    display: flex;
+    margin-bottom: 150px;
 }
 
 .half-weight {
@@ -21,18 +22,40 @@ section {
 }
 
 .half-weight img {
-    width: 150px;
+    width: 220px;
     padding-left: 3%;
 }
 
 .link-button {
     text-decoration: none;
-    background-image: -moz-element(green brown);
-    padding-right: 10px;
-    padding-left: 15px;
+    background-color: cornflowerblue;
+    color: red;
+    font-weight: 400;
+    padding-right: 40px;
+    padding-left: 30px;
     border-radius: 5px;
 }
 
 .top-banner {
-    background-image: url(images/header_bg.png);
+    background-image: url(images/pussy.jpg);
+    background-repeat: no-repeat;
+}
+
+.color {
+    color: brown;
+}
+
+
+.half-weight {
+    width: 70%;
+
+}
+
+.dream big {
+    background-image: url(images/hulu.jpg);
+    background-repeat: no-repeat;
+}
+
+.right {
+    width: 220px;
 }
