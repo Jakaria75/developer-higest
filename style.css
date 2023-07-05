@@ -4,14 +4,14 @@ body {
 }
 
 .orange-color {
-    color: brown;
+    color: green;
 }
 
 h1 {
     font-size: 30px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 150px;
 }
@@ -45,17 +45,46 @@ section {
     color: brown;
 }
 
-
-.half-weight {
-    width: 70%;
-
-}
-
 .dream big {
-    background-image: url(images/hulu.jpg);
+    background-image: url(images/hardy.png);
     background-repeat: no-repeat;
 }
 
 .right {
     width: 220px;
+}
+
+.content {
+    display: flex;
+}
+
+.website {
+    box-shadow: 10px 10px 40px green;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.luck {
+    font-size: 20px;
+}
+
+.experience {
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+}
+
+#full-stake {
+    border-left: 7px solid red;
+}
+
+#my-mine {
+    border-left: 7px solid black;
+}
+
+footer {
+    text-align: center;
 }
